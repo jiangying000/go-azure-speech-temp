@@ -1,4 +1,6 @@
-# before run:
+# steps to run:
+
+follow instructions at https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/quickstarts/setup-platform?pivots=programming-language-go&tabs=windows%2Cubuntu%2Cdotnet%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi
 
 ```
 export SPEECHSDK_ROOT="$HOME/speechsdk"
@@ -9,3 +11,5 @@ export CGO_LDFLAGS="-L$SPEECHSDK_ROOT/lib/x64 -lMicrosoft.CognitiveServices.Spee
 export SPEECH_KEY=YOU_KEY
 export SPEECH_REGION=YOU_REGION
 ```
+
+`go run main.go`
